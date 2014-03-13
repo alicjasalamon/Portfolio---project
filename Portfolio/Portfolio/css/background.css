@@ -91,23 +91,22 @@ p
     height : 50px;
     font-size : 30px;
     text-align : center;
-    border-bottom : 1px solid gray;
 }
 
 .header a
 {
-    width : 100%;
+    border-bottom : 1px solid gray;
+    padding-bottom : 5px;
+    width : 180px;
     font-size : 30px;
     text-align : center;
     color : gray;
     text-decoration : none;
+    display : block;
 }
 
 .header a:hover
 {
-    width : 100%;
-    font-size : 30px;
-    text-align : center;
     color : darkblue;
-    text-decoration : none;
+    border-bottom-color : seagreen;
 }
