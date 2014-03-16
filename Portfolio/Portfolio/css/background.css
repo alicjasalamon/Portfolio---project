@@ -1,112 +1,56 @@
-﻿@font-face
-{
+﻿@font-face {
     font-family: 'Segoe<3';
     src: url('../fonts/segoe-ui-light.woff');
 }
 
 body {
-    background-color : antiquewhite;
+    background-color: antiquewhite;
     margin: 0px auto;
     text-align: center;
-    font-family : 'Segoe<3';
-    color : gray;
+    font-family: 'Segoe<3';
+    color: gray;
     height: auto;
 }
 
-.wrap
-{
+.wrap {
     margin: 0px auto;
-    margin-top : 50px;
-    text-align : center;
+    margin-top: 50px;
+    text-align: center;
 }
 
-img {
+.topSection {
+    width: 100%;
+    align-content: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+    .topSection div {
+        display: inline-block;
+    }
+
+        .topSection div p {
+            text-align: left;
+            font-size: 50px;
+        }
+
+.bottomSection {
+    width: 100%;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.span3 {
+    margin: 5px;
+    width: 180px;
+    display: inline-block;
+    text-align: left;
+}
+
+.span6 {
+    margin: 5px;
     width: 350px;
-}
+    vertical-align: middle;
+    display: table;
 
-p
-{
-    
-    font-size : 30px;
-}
-
-.topSection
-{
-    width : 100%;
-    align-content : center;
-   vertical-align : middle;
-   margin-bottom : 20px;
-
-     
-}
-
-.topSection div
-{
-    display : inline-block;
-
-}
-
-.topSection div p
-{
-    text-align : left;
-    font-size : 50px;
-
-}
-
-.bottomSection
-{
-
-    width : 100%;
-    align-content : center;
-    vertical-align : middle;
-}
-
-.row
-{
-    width : 100%;
-    margin: 0 auto;
- 
-}
-
-.span3
-{
-    margin : 5px;
-    width : 180px;
-    display : inline-block;
-    text-align : left;
-}
-
-.span6
-{
-    margin : 5px;
-    width : 350px;
-    vertical-align : middle;
-    display: table; 
-    height: 100%
-
-}
-
-.header
-{
-    height : 50px;
-    font-size : 30px;
-    text-align : center;
-}
-
-.header a
-{
-    border-bottom : 1px solid gray;
-    padding-bottom : 5px;
-    width : 180px;
-    font-size : 30px;
-    text-align : center;
-    color : gray;
-    text-decoration : none;
-    display : block;
-}
-
-.header a:hover
-{
-    color : darkblue;
-    border-bottom-color : seagreen;
 }
