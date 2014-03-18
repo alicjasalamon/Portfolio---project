@@ -22,7 +22,7 @@ body {
     width: 100%;
     align-content: center;
     vertical-align: middle;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
     .topSection div {
@@ -36,15 +36,6 @@ body {
 
 .bottomSection {
     width: 100%;
-    align-content: center;
-    vertical-align: middle;
-}
-
-.span3 {
-    margin: 5px;
-    width: 180px;
-    display: inline-block;
-    text-align: left;
 }
 
 .span6 {
