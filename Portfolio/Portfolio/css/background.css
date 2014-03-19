@@ -16,6 +16,7 @@ body {
     margin: 0px auto;
     margin-top: 50px;
     text-align: center;
+    min-width : 830px;
 }
 
 .topSection {
@@ -32,10 +33,12 @@ body {
         .topSection div p {
             text-align: left;
             font-size: 50px;
+            line-height : 1.2;
         }
 
 .bottomSection {
     width: 100%;
+
 }
 
 .span6 {
