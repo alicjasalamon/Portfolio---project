@@ -1,0 +1,10 @@
+﻿.title
+{
+    font-size : 100px;
+    letter-spacing : 4px;
+}
+
+.title span
+{
+    font-weight : 900;
+}

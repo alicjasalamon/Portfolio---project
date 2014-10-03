@@ -1,50 +1,23 @@
 ﻿@font-face {
-    font-family: 'Segoe<3';
+    font-family: 'Segoe';
     src: url('../fonts/segoe-ui-light.woff');
 }
 
 body {
-    background-color: antiquewhite;
     margin: 0px auto;
     text-align: center;
-    font-family: 'Segoe<3';
+    font-family: 'Segoe';
     color: gray;
-    height: auto;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100%;
+    background-position: right top;
 }
 
-.wrap {
-    margin: 0px auto;
-    margin-top: 50px;
-    text-align: center;
-    min-width : 830px;
-}
+@media (max-width : 1400px) {
 
-.topSection {
-    width: 100%;
-    align-content: center;
-    vertical-align: middle;
-    margin-bottom: 40px;
-}
-
-    .topSection div {
-        display: inline-block;
+    html, body {
+        height: 100%;
+        background-size: auto 100%;
+        overflow:hidden;
     }
-
-        .topSection div p {
-            text-align: left;
-            font-size: 50px;
-            line-height : 1.2;
-        }
-
-.bottomSection {
-    width: 100%;
-
-}
-
-.span6 {
-    margin: 5px;
-    width: 350px;
-    vertical-align: middle;
-    display: table;
-
 }
