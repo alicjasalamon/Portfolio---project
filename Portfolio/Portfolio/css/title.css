@@ -1,31 +1,43 @@
-﻿.title
-{
-    font-size : 0px;
-    letter-spacing : 6px;
-    padding-top : 70px;
-    padding-bottom : 40px;
-    padding-left : 200px;
-    text-align : left;
-    text-shadow : 1px 1px 2px #808080;
+﻿.title {
+    font-size: 0px;
+    letter-spacing: 6px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    text-align: left;
+    text-shadow: 1px 1px 2px #808080;
 }
 
-.title span
-{
-        font-size : 100px;
-        float : left;
-}
-
-@media (max-width : 1000px) {
-
-    .title {
-        text-align : center;
-        font-size : 80px;
+    .title span {
+        font-size: 100px;
+        float: left;
     }
 
+@media (max-width : 1170px) {
+    
+    .header .title
+    {
+        padding-left : 0;
+        text-align : center;
+    }
+    .header .title span
+    {
+        font-size : 80px;
+        text-align : center;
+        float :none;
+    }
+    
+    body
+    {
+        background-color : magenta;
+    }
 }
 
-.title .bold
+.title .bold {
+    font-weight: 900;
+}
+
+.header
 {
-   font-weight : 900;
-   
+    display : inline;
 }
