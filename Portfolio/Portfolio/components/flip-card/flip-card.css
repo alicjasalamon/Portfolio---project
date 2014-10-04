@@ -15,10 +15,10 @@
     height: inherit;
     padding-top: 1em;
     box-shadow: 1px 1px 2px #888;
-    background: rgba(128, 128, 128, 0.2);
+    background: rgba(128, 128, 128, 0.25);
     font-size: 3em;
     text-align: center;
-    text-shadow: -1px -1px rgba(0, 0, 0, 0.4);
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.5);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
@@ -28,16 +28,20 @@
 }
 
 ::content front {
-    padding: 20px;
+    padding: 5px;
+    padding-top : 2px;
     text-align: center;
-    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self:center;
 }
 
 ::content back {
-    font-size: 14px;
+    font-size: 16px;
     padding: 20px;
     text-align: justify;
-    line-height : 1.5;
+    line-height: 1.5;
 }
 
 ::content front {

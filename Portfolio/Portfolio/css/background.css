@@ -10,7 +10,7 @@ body {
     color: gray;
     background: url(../img/background.jpg) no-repeat;
     background-size: 100%;
-    background-position: right top;
+    background-position:  top left;
     background-attachment : fixed;
 
 }

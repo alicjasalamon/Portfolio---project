@@ -3,92 +3,128 @@
 <head>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
     <link rel="stylesheet" href="css/background.css">
+    <link href="lib/animate.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/title.css">
     <link href="css/tile.css" rel="stylesheet" />
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <script src="components/platform/platform.js"></script>
+    <script src="lib/textillate.js"></script>
+    <script src="lib/lettering.js"></script>
     <link rel="import" href="components/flip-card/flip-card.html">
     <title>Alicja Salamon</title>
 </head>
 <body>
 
-    <div class="title">
-        alicja<span class="test">salamon</span>
+    <div style="display : flex">
+        <div class="title">
+            <span class="tlt" data-in-effect="bounceInDown" data-in-shuffle="true">alicja</span><span class="tlt bold" data-in-effect="bounceInDown" data-in-shuffle="true">salamon</span>
+        </div>
     </div>
 
-    <div class="row">
-        <flip-card axis="y">
-            <front>
-                Stick it!
-            </front>
-            <back>
-                Web sticky note page allows you to store short text information
-                in your browser. You can also dinamicaly change how notes and board look like.
-                Do you prefer cork board, chalk board or fridge style?
-            </back>
+    <div class="tiles">
 
-        </flip-card>
-        <flip-card axis="y">
-            <front>ESCape</front>
-            <back>
-                Watch a short film presenting look and capabilities of Java desktop
-                aplication for modeling and simulation of building evacuation process.
-                I was responsible for designing and implementing GUI. See design process
-                from IA, mockups and final product!
-            </back>
-        </flip-card>
-        <flip-card axis="y">
-            <front>Google <br /> for elderly</front>
-            <back>
-                Zobacz dziadków.
-            </back>
-        </flip-card>
+        <div class="row-4">
 
-        <flip-card axis="y">
-            <front>AAL</front>
-            <back>
-                Check out video presenting page offering doctors and patients
-                easy (and so pretty!) way to manage ambient assisted living process.
-                I've designed and implemented GUI using modern metro style. 
-            </back>
-        </flip-card>
+            <div class="row-2">
 
+                <a href="google.com">
+                    <flip-card axis="y">
+                        <front>
+                            Stick it!
+                        </front>
+                        <back>
+                            This page allows you to store short notes
+                            in your browser. You can also dinamicaly change how notes and board look like.
+                            Which style do you prefer?
+                        </back>
+                    </flip-card>
+                </a>
+
+                <a href="google.com">
+                    <flip-card axis="y">
+                        <front>ESCape</front>
+                        <back>
+                            See my design process from IA, through mockups to final product!
+                            Watch a short film presenting look and capabilities of
+                            this aplication for modeling building evacuation.
+                        </back>
+                    </flip-card>
+                </a>
+
+            </div>
+
+
+            <div class="row-2">
+
+                <a href="google.com">
+                    <flip-card axis="y">
+                        <front>Google <br /> for elderly</front>
+                        <back>
+                            I conducted series of workshops for elderly to teach them how to use
+                            basic Google web pages. Do you want to se some photos?
+                        </back>
+                    </flip-card>
+                </a>
+
+                <a href="google.com">
+                    <flip-card axis="y">
+                        <front>AAL</front>
+                        <back>
+                            Page offering doctors and patients
+                            easy way to manage Ambient Assisted Living process.
+                            I designed and implemented GUI using modern metro style.
+                        </back>
+                    </flip-card>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="row-4">
+
+            <div class="row-2">
+
+                <flip-card axis="y">
+                    <front>Schola</front>
+                    <back>
+                        I designed website for Dominican Choir in Cracow. You are really welcome to come
+                        and hear us singing :)
+                    </back>
+                </flip-card>
+
+                <flip-card axis="y">
+                    <front>Usability testing</front>
+                    <back>
+                        At my University nobody could learn how to use blinds,
+                        lightning and projector control panels in lecture halls. What about conducting some
+                        usability testing?
+                    </back>
+                </flip-card>
+            </div>
+
+
+            <div class="row-2">
+                <flip-card axis="y">
+                    <front>Transcipts</front>
+                    <back>
+                        Here are my grades from my Bachelor's Degree Programme in CS.
+                        As as I started Master's Degree Programm in UX this autumn, there are no grades yet,
+                        but you can check out my study plan.
+                    </back>
+                </flip-card>
+
+                <flip-card axis="y">
+                    <front>CV</front>
+                    <back>
+                        If you want to find more detailed information about me in printable version
+                        - check out my CV.  Are you a recruiter? I'm looking forward to hearing from you!
+                    </back>
+                </flip-card>
+            </div>
+        </div>
     </div>
-
-    <div class="row">
-        <flip-card axis="y">
-            <front>Schola</front>
-            <back> </back>
-        </flip-card>
-        <flip-card axis="y">
-            <front>UE testing</front>
-            <back> <3</back>
-        </flip-card>
-        <flip-card axis="y">
-            <front>Transcipts</front>
-            <back> Zobacz moje oceny z Bachelora i study plan z Mastera (no grades yet)</back>
-        </flip-card>
-
-        <flip-card axis="y">
-            <front>CV</front>
-            <back>
-                If you want to find more detailed information about me, my education,
-                work experience, interests or what is the best way to contact me - in printable version
-                - check out my CV.  Are you a recruiter? I'm looking forward to hearing from you!
-            </back>
-        </flip-card>
-
-    </div>
-
-
-    <div class="header"><a href="#">AAL</a></div>
-    <div>
-        <p>
-            Check out demo version of page offering doctors and patients
-            easy (and so pretty!) way to manage ambient assisted living process.
-            I've designed and implemented GUI using modern metro style.
-        </p>
 
     </div>
 

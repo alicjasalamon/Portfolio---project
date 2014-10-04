@@ -1,4 +1,17 @@
-﻿.row
-{
-    text-align : left;
+﻿.row {
+    text-align: left;
+    padding-left: 100px;
+}
+
+
+@media (min-width : 1150px) {
+
+    .row-4 {
+        display: flex;
+        padding-left: 100px;
+    }
+}
+
+a:link {
+    text-decoration : none;
 }
