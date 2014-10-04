@@ -4,8 +4,11 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/title.css">
+    <link href="css/tile.css" rel="stylesheet" />
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <script src="components/platform/platform.js"></script>
+    <link rel="import" href="components/flip-card/flip-card.html">
     <title>Alicja Salamon</title>
 </head>
 <body>
@@ -14,15 +17,70 @@
         alicja<span class="test">salamon</span>
     </div>
 
-    <div class="header"><a href="http://student.agh.edu.pl/~asalamon/zadanie%204/">Stick it!</a></div>
-    <div>
-        <p>
-            Web sticky note page allows you to store short text information
-            in your browser. You can also dinamicaly change how notes and board look like.
-            Do you prefer cork board, chalk board or fridge style?
-        </p>
+    <div class="row">
+        <flip-card axis="y">
+            <front>
+                Stick it!
+            </front>
+            <back>
+                Web sticky note page allows you to store short text information
+                in your browser. You can also dinamicaly change how notes and board look like.
+                Do you prefer cork board, chalk board or fridge style?
+            </back>
+
+        </flip-card>
+        <flip-card axis="y">
+            <front>ESCape</front>
+            <back>
+                Watch a short film presenting look and capabilities of Java desktop
+                aplication for modeling and simulation of building evacuation process.
+                I was responsible for designing and implementing GUI. See design process
+                from IA, mockups and final product!
+            </back>
+        </flip-card>
+        <flip-card axis="y">
+            <front>Google <br /> for elderly</front>
+            <back>
+                Zobacz dziadków.
+            </back>
+        </flip-card>
+
+        <flip-card axis="y">
+            <front>AAL</front>
+            <back>
+                Check out video presenting page offering doctors and patients
+                easy (and so pretty!) way to manage ambient assisted living process.
+                I've designed and implemented GUI using modern metro style. 
+            </back>
+        </flip-card>
 
     </div>
+
+    <div class="row">
+        <flip-card axis="y">
+            <front>Schola</front>
+            <back> </back>
+        </flip-card>
+        <flip-card axis="y">
+            <front>UE testing</front>
+            <back> <3</back>
+        </flip-card>
+        <flip-card axis="y">
+            <front>Transcipts</front>
+            <back> Zobacz moje oceny z Bachelora i study plan z Mastera (no grades yet)</back>
+        </flip-card>
+
+        <flip-card axis="y">
+            <front>CV</front>
+            <back>
+                If you want to find more detailed information about me, my education,
+                work experience, interests or what is the best way to contact me - in printable version
+                - check out my CV.  Are you a recruiter? I'm looking forward to hearing from you!
+            </back>
+        </flip-card>
+
+    </div>
+
 
     <div class="header"><a href="#">AAL</a></div>
     <div>
@@ -32,27 +90,6 @@
             I've designed and implemented GUI using modern metro style.
         </p>
 
-    </div>
-
-    <div class="header"><a href="http://student.agh.edu.pl/~asalamon/zadanie%206/ESCape/">ESCape</a></div>
-    <div>
-        <p>
-            Watch a short film presenting look and capabilities of Java desktop
-            aplication for modeling and simulation of building evacuation process.
-            I was responsible for designing and implementing GUI.
-            Look what is possible with good old Swing!
-        </p>
-    </div>
-
-    <div class="header"><a href="http://student.agh.edu.pl/~asalamon/AlicjaSalamon.pdf">CV</a></div>
-    <div>
-        <p>
-            If you want to find more detailed information about me, my education,
-            work experience, interests or what is the best way to contact me - in printable version
-            - check out my CV.
-            <br />
-            Are you a recruiter? I'm looking forward to hearing from you!
-        </p>
     </div>
 
 </body>
