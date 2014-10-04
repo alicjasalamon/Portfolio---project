@@ -2,7 +2,21 @@
 {
     font-size : 100px;
     letter-spacing : 4px;
+    padding-top : 140px;
+    padding-left : 200px;
+    text-align : left;
+    text-shadow : 2px 2px 2px #808080;
 }
+
+@media (max-width : 1000px) {
+
+    .title {
+        text-align : center;
+        padding-left: 10px;
+        font-size : 80px;
+    }
+}
+
 
 .title span
 {
