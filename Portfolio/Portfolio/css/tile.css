@@ -1,19 +1,9 @@
-﻿.row {
-    text-align: left;
-    padding-left: 100px;
-}
-
-
-@media (min-width : 1170px) {
+﻿@media (min-width : 1170px) {
 
     .row-4 {
         display: flex;
         padding-left: 100px;
     }
-}
-
-a:link {
-    text-decoration : none;
 }
 
 @media (min-height : 800px)
@@ -23,4 +13,13 @@ a:link {
         padding-top : 100px;
         padding-bottom : 150px;
     }
+}
+
+a:link {
+    text-decoration : none;
+}
+
+front
+{
+    font-size : 40px !important; 
 }

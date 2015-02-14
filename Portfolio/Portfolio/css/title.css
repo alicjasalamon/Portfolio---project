@@ -13,31 +13,26 @@
         float: left;
     }
 
+    .title .bold {
+        font-weight: 900;
+    }
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
 @media (max-width : 1170px) {
-    
-    .header .title
-    {
-        padding-left : 0;
-        text-align : center;
-    }
-    .header .title span
-    {
-        font-size : 80px;
-        text-align : center;
-        float :none;
-    }
-    
-    body
-    {
-        background-color : magenta;
-    }
-}
 
-.title .bold {
-    font-weight: 900;
-}
+    .header .title {
+        padding-left: 5px;
+        text-align: center;
+        width: 100%;
+    }
 
-.header
-{
-    display : inline;
+        .header .title span {
+            font-size: 80px;
+            text-align: center;
+            float: none;
+        }
 }

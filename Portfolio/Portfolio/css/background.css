@@ -1,12 +1,8 @@
-﻿@font-face {
-    font-family: 'Segoe';
-    src: url('../fonts/segoe-ui-light.woff');
-}
-
-body {
+﻿body {
     margin: 0px auto;
     text-align: center;
-    font-family: 'Segoe';
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     color: gray;
     background: url(../img/background.jpg) no-repeat;
     background-size: 100%;
@@ -15,7 +11,7 @@ body {
 
 }
 
-@media (max-width : 1400px) {
+@media (max-width : 1200px) {
 
     html, body {
         height: 100%;
